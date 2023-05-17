@@ -1,5 +1,7 @@
+@import url("/assests/header.css");
 :root {
     --cor-fundo: #EBECEE;
+    --branco-padrao: #FFFFFF;
 }
 body{
     background-color: var(--cor-fundo);
