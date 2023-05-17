@@ -1,5 +1,6 @@
 @import url("/assests/header.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("/assests/banner.css");
+
 :root {
     --cor-fundo:      #EBECEE;
     --branco-padrao:  #FFFFFF;
@@ -9,4 +10,7 @@
 }
 body{
     background-color: var(--cor-fundo);
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 400;
 }

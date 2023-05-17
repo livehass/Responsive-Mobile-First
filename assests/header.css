@@ -49,3 +49,6 @@
     font-family: var(--fonte-padrao);
     
 }
+.container__botao {
+    display: none;
+}
