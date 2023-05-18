@@ -6,6 +6,7 @@
     font-size: 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
+    
 }
 .swiper-slide img {
     width: 100%;
@@ -41,6 +42,7 @@
     border-radius: 10px;
     margin: 1em;
     padding: 1em;
+    
    
 }
 .descrição__titulo {
@@ -57,7 +59,7 @@
 }
 .descrição__texto {
     font-size: 14px;
-    align-items: start;
+    
 } 
 .botões__ancora {
     background-color: var(--cor-destaque);

@@ -3,6 +3,7 @@
 @import url("/assests/header.css");
 @import url("/assests/banner.css");
 @import url("/assests/carrossel.css");
+@import url("/assests/topicos.css");
 
 
 :root {
@@ -18,4 +19,5 @@ body{
     font-family: var(--fonte-padrao);
     font-size: 16px;
     font-weight: 400;
+    
 }
