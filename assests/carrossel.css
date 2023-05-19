@@ -33,6 +33,7 @@
     align-items: center;
 }
 .botões__item{
+    cursor: pointer;
     align-items: center;
     margin: 0 0.5em;
 }
