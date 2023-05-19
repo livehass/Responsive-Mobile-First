@@ -27,6 +27,5 @@
     font-weight: 400;
     color: var(--branco-padrao);
     background: url("/img/Pesquisa.svg") no-repeat;
-    background-position: 1em;
-    
+    background-position: 1em; 
 }
