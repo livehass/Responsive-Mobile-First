@@ -84,4 +84,7 @@
         text-decoration: none;
         color: var(--preto-padrao);
     }
+    .container__imagem-transparente {
+        display: none;
+    }
 }   
