@@ -29,7 +29,7 @@
     background: url("/img/Pesquisa.svg") no-repeat;
     background-position: 1em; 
 }
-
+/* versão tablet */
 @media screen and (min-width: 1024px) {
     .banner__titulo {
         font-size: 36px;
