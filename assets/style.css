@@ -1,12 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
-@import url("/assests/header.css");
-@import url("/assests/banner.css");
-@import url("/assests/carrossel.css");
-@import url("/assests/topicos.css");
-@import url("/assests/contato.css");
-@import url("/assests/rodape.css");
+@import url("/assets/header.css");
+@import url("/assets/banner.css");
+@import url("/assets/carrossel.css");
+@import url("/assets/topicos.css");
+@import url("/assets/contato.css");
+@import url("/assets/rodape.css");
 :root {
     --padrao-preto:     #000000;
     --destaque-azul:    #002F52;
