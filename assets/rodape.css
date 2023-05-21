@@ -11,11 +11,17 @@
         display: flex;
         justify-content: space-around; /*space-around cria uma espaço igual entre todos os itens e entre a borda*/
     }
+    .lista-rodapé__titulo {
+        color: var(--cinza-segundario);
+    }
     .lista-rodapé__item {
-        padding: 1em 0;
+        display: flex;
+        align-items: center;
         
     }
     .lista-rodapé__link {
-        padding: 0 0 1em 0;
+        text-decoration: none;
+        color: var(--cinza-padrao);
+        margin-left: 1em;
     }
 }
