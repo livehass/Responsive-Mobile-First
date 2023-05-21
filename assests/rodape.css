@@ -5,9 +5,17 @@
     background-color: var(--branco-padrao);
     padding: 1em;
 }
-
+/* versão tablet */
 @media screen and (min-width: 1024px){
     .rodapé {
         display: flex;
+        justify-content: space-around; /*space-around cria uma espaço igual entre todos os itens e entre a borda*/
+    }
+    .lista-rodapé__item {
+        padding: 1em 0;
+        
+    }
+    .lista-rodapé__link {
+        padding: 0 0 1em 0;
     }
 }
