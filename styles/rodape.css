@@ -6,6 +6,10 @@
     padding: 1em;
 }
 /*fora do media querie para desativar a visualização mobile*/
+.lista-rodapé {
+    display: none;
+}
+
 /* versão tablet */
 @media screen and (min-width: 1024px){
     .rodapé__titulo {
@@ -15,6 +19,9 @@
     .rodapé {
         display: flex;
         justify-content: space-around; /*space-around cria uma espaço igual entre todos os itens e entre a borda*/
+    }
+    .lista-rodapé {
+        display: block;
     }
     .lista-rodapé__titulo {
         font-size: 14px;
