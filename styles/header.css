@@ -115,6 +115,14 @@
     .opções__item {
         padding: 2em var(--padding-padrao1em);
     }
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+
+    }
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color:  var(--branco-padrao);
+        text-decoration: none; 
+    }
 }
 
 @media screen and (min-width: 1728px) {
