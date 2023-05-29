@@ -57,6 +57,10 @@
 .opções {
     display: none;
 }
+/*opções do media querie para não aparecerem*/
+.container__texto {
+    display: none;
+}
 /* versão tablet */
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
@@ -101,6 +105,12 @@
 }
 
 @media screen and (min-width: 1728px) {
+    .cabeçalho{
+        padding: 0 2em;
+    }
+    .opções { /*colocamos a margin auto, para preencher toda a direita com o margin, assim jogando a lista toda do cabeçalho para esquerda*/
+        margin-right: auto;
+    }
     .container__link {
         display: flex;
         align-items: center;
@@ -108,8 +118,9 @@
         color: var(--preto-padrao);
     }
     .container__texto {
+        display: block;
         font-size: 20px;
-        font-weight: 400;
+        
     }
     
 }
