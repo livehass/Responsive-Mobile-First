@@ -12,6 +12,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.container__botao:checked ~ .container__rotulo >  .cabeçalho__menu-hamburguer {
+    background-image: url("/img/MenuAberto.svg");
+}
+.container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+}
 .container {
     display: flex;
     align-items: center;
@@ -23,7 +29,7 @@
     display: none;
     position: absolute;
     top: 100%; 
-    width: 60vw;                                                                                                                                                    
+    width:60vw;                                                                      
 }
  .container__botao{ /*retirar se for ultilizar o botao  */
     display: none;
