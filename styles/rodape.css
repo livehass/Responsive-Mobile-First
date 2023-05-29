@@ -5,10 +5,12 @@
     background-color: var(--branco-padrao);
     padding: 1em;
 }
+/*fora do media querie para desativar a visualização mobile*/
 /* versão tablet */
 @media screen and (min-width: 1024px){
     .rodapé__titulo {
         font-size: 24px;
+        padding-top: 1em;
     }
     .rodapé {
         display: flex;
@@ -27,6 +29,7 @@
     .lista-rodapé__link {
         text-decoration: none;
         color: var(--cinza-padrao);
-        margin-left: 1em;
+        margin-left: 0.6em;
     }
+    
 }
