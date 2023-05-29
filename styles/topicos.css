@@ -1,7 +1,7 @@
 .tópicos {
     background: var(--azul-degrade);
     text-align: center;
-    padding: 1em 0;
+    padding: var(--padding-padrao1em) 0;
 }
 .tópicos__titulo {
     color: var(--branco-padrao);
@@ -27,9 +27,9 @@
 /* versão tablet */
 @media screen and (min-width: 1024px) {
     .tópicos__titulo {
-        font-size: 24px;
+        font-size: var(--padrao-pixel24);
     }
     .tópicos__Link {
-        font-size: 24px;
+        font-size: var(--padrao-pixel24);
     }
 }

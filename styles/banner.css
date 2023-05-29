@@ -10,14 +10,14 @@
 }
 .banner__texto {
     font-weight: 500;
-    margin: 1em 0;
+    margin: var(--padding-padrao1em) 0;
 }
 .banner__pesquisa {
     background-color: transparent;
     border: 1px solid var(--branco-padrao);
     color: var(--branco-padrao);
-    border-radius: 24px;
-    padding: 1em;
+    border-radius: var(--padrao-pixel24);
+    padding: var(--padding-padrao1em);
     width: 100%;
     text-align: center;
 }

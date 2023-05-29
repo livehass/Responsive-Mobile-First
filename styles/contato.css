@@ -14,13 +14,13 @@
 }
 .contato__texto {
     font-weight: 300;
-    padding: 1em 0;
+    padding: var(--padding-padrao1em) 0;
 }
 .contato__email{
     padding: 1em;
     background: transparent;
     border: 1px solid var(--destaque-azul);
-    border-radius: 24px;
+    border-radius: var(--padrao-pixel24);
     width: 90%;
     color: var(--destaque-azul);
 }
@@ -40,7 +40,7 @@
         
     }
     .contato__titulo {
-        font-size: 24px;
+        font-size: var(--padrao-pixel24);
     }
     .contato__descrição {
         margin-right: 1em;

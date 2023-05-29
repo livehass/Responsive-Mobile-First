@@ -13,7 +13,7 @@
 /* versão tablet */
 @media screen and (min-width: 1024px){
     .rodapé__titulo {
-        font-size: 24px;
+        font-size: var(--padrao-pixel24);
         padding-top: 1em;
     }
     .rodapé {
