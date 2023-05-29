@@ -31,13 +31,11 @@
     padding-left: 2em;   
 }
 /* versão tablet */
-
 @media screen and (min-width: 1024px) {
     .contato {
         display: flex;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;   
     }
     .contato__titulo {
         font-size: var(--padrao-pixel24);
@@ -45,10 +43,14 @@
     .contato__descrição {
         margin-right: 1em;
         width: 30%;
-
     }
     .contato__email {
         width: 30%;
     }
-
+}
+/*versão desktop*/
+@media screen and (min-width: 1728px) {
+    .contato { 
+        padding: 3em 20vw;
+    }
 }
