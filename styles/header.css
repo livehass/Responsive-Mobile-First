@@ -88,7 +88,7 @@
         margin-top: 2.3em;
     }
     .opções__item {
-        padding: 0 1em;
+        padding: 0 var(--padding-padrao1em);
         text-transform: uppercase;
     }
     .opções__link {
@@ -107,6 +107,13 @@
     }
     .opções__botão {
         display: none;
+    }
+    .opções__botão:checked ~ .opçoes__rotulo > .opções__item{
+        background: var(--azul-degrade);
+        color: var(--branco-padrao);
+    }
+    .opções__item {
+        padding: 2em var(--padding-padrao1em);
     }
 }
 
