@@ -22,6 +22,8 @@
     --fonte-segundaria:  'Josefin Sans', sans-serif;
     --padding-padrao1em: 1em;
     --padrao-pixel24:    24px;
+    --padrao-display:    none;
+    --tamanho-padrao:    50%;
 }
 body{
     background-color: var(--cor-fundo);

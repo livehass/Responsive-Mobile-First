@@ -18,7 +18,7 @@
     color: var(--branco-padrao);
     border-radius: var(--padrao-pixel24);
     padding: var(--padding-padrao1em);
-    width: 100%;
+    width: calc(var(--tamanho-padrao) + var(--tamanho-padrao));
     text-align: center;
 }
 .banner__pesquisa::placeholder {

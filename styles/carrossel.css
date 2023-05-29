@@ -5,14 +5,14 @@
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0; 
+    padding: var(--padding-padrao1em) 0 0.5em 0; 
 }
 .swiper-slide img {
     width: 100%;
 }
 .swiper-button-prev, 
 .swiper-button-next {
-    display: none;
+    display: var(--padrao-display);
 }
 .swiper-pagination {
     position: initial;
@@ -60,7 +60,7 @@
 .botões__ancora {
     background-color: var(--cor-destaque);
     padding: var(--padding-padrao1em) 2.2em;
-    text-decoration: none;
+    text-decoration: var(--padrao-display);
     color: var(--branco-padrao);
     font-weight: 700;
 }
@@ -68,7 +68,7 @@
 @media screen and (min-width: 1024px) {
     .carrossel__titulo, .mais__vendidos-titulo {
         font-size: 26px;
-        padding: 2em 0 1em 0;
+        padding: 2em 0 var(--padding-padrao1em) 0;
     }
     .swiper-pagination {
         margin: 1.3em 0 3em 0;    
@@ -93,13 +93,13 @@
         align-items: center;
     }
     .swiper-pagination {
-        margin: 1em 0;    
+        margin: var(--padding-padrao1em) 0;    
     }
     .swiper {
-       width: 50%;
+       width: var(--tamanho-padrao);
     }
     .descrição{
-        margin-right: 2em;
+        margin-right: calc(var(--padding-padrao1em) * 2);
     }
     .descrição__titulo {
         font-size: 32px;
@@ -108,7 +108,7 @@
         font-size: 16px;
     }
     .card {
-        width: 60%;
+        width: calc(var(--tamanho-padrao) - 10%);
         margin-left: 3em;
     }
 }

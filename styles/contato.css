@@ -1,6 +1,6 @@
 .contato {
     background-color: var(--branco-padrao);
-    padding: 1em;
+    padding: var(--padding-padrao1em);
 }
 .contato__titulo, .contato__texto {
     background: var(--azul-degrade);
@@ -17,7 +17,7 @@
     padding: var(--padding-padrao1em) 0;
 }
 .contato__email{
-    padding: 1em;
+    padding: var(--padding-padrao1em);
     background: transparent;
     border: 1px solid var(--destaque-azul);
     border-radius: var(--padrao-pixel24);

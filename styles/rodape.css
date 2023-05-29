@@ -7,7 +7,7 @@
 }
 /*fora do media querie para desativar a visualização mobile*/
 .lista-rodapé {
-    display: none;
+    display: var(--padrao-display);
 }
 
 /* versão tablet */

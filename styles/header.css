@@ -26,13 +26,13 @@
     padding: var(--padding-padrao1em);
 }
 .lista-menu {
-    display: none;
+    display: var(--padrao-display);
     position: absolute;
     top: 100%; 
     width:60vw;                                                                      
 }
  .container__botao{ /*retirar se for ultilizar o botao  */
-    display: none;
+    display: var(--padrao-display);
 }
 .container__botao:checked ~ .lista-menu {
     display: block;
@@ -54,18 +54,18 @@
     text-transform: uppercase;   
 }
 .container__titulo {
-    display: none;
+    display: var(--padrao-display);
 }
 /* quando estiver abaixo do tamanho de 1024 o container titulo some */
 .catainer__titulo {
-    display: none;
+    display: var(--padrao-display);
 }
 .opções {
-    display: none;
+    display: var(--padrao-display);
 }
 /*opções do media querie para não aparecerem*/
 .container__texto {
-    display: none;
+    display: var(--padrao-display);
 }
 /* versão tablet */
 @media screen and (min-width: 1024px) {
@@ -74,7 +74,7 @@
        font-size: 30px
     }
     .container__botao{
-        display: none;
+        display: var(--padrao-display);
     }
     .container__titulo {
         font-weight: 400;
@@ -96,17 +96,17 @@
         color: var(--preto-padrao);
     }
     .container__imagem-transparente {
-        display: none;
+        display: var(--padrao-display);
     }
     .cabeçalho__menu-hamburguer {
-        display: none;
+        display: var(--padrao-display);
     }
    .opções__botão:checked ~ .lista-menu {
         display: block;
         width: 15%;
     }
     .opções__botão {
-        display: none;
+        display: var(--padrao-display);
     }
     .opções__botão:checked ~ .opçoes__rotulo > .opções__item{
         background: var(--azul-degrade);
@@ -121,7 +121,7 @@
     }
     .lista-menu__item:hover > .lista-menu__link{
         -webkit-text-fill-color:  var(--branco-padrao);
-        text-decoration: none; 
+        text-decoration: var(--padrao-display); 
     }
 }
 

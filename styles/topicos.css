@@ -6,7 +6,7 @@
 .tópicos__titulo {
     color: var(--branco-padrao);
     font-weight: 300;
-    margin-bottom: 1em;   
+    margin-bottom: var(--padding-padrao1em);   
 }
 .tópicos__lista {
     display: flex;
@@ -18,9 +18,9 @@
 }
 .tópicos__Link {
     color: var(--branco-padrao);
-    padding: 1em;
+    padding: var(--padding-padrao1em);
     background-color: var(--cor-destaque);
-    text-decoration: none;
+    text-decoration: var(--padrao-display);
     font-size: 14px;
     font-weight: 700;
 }
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 1728px){
     .tópicos {
-        padding: 3em 20vw;
+        padding: calc(var(--padding-padrao1em) * 3) 20vw; 
     }
  
 }
