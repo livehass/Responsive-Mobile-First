@@ -3,7 +3,7 @@
 } 
 .rodapé {
     background-color: var(--branco-padrao);
-    padding: 1em;
+    padding: var(--padding-padrao1em);
 }
 /*fora do media querie para desativar a visualização mobile*/
 .lista-rodapé {
@@ -30,13 +30,20 @@
     .lista-rodapé__item {
         display: flex;
         align-items: center;
-        margin: 0.6em 0;
-        
+        margin: 0.6em 0;   
     }
     .lista-rodapé__link {
         text-decoration: none;
         color: var(--cinza-padrao);
         margin-left: 0.6em;
     }
-    
+}
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza-segundario);
+        padding-left: var(--padding-padrao1em);
+    }
+    .rodapé {
+        padding: 3em 3m;
+    }
 }
